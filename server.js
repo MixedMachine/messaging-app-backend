@@ -52,7 +52,7 @@ db.once("open", () => {
     })
 })
 
-app.get("/", (req, res) => res.status(200).send("Hello, the back end is running."))
+app.get("/", (req, res) => res.status(200).send("Hello, the Backend is running."))
 
 app.post('/messages/new', (req, res) => {
     const dbMessage = req.body
